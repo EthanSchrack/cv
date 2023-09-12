@@ -31,7 +31,7 @@ footer {
 }
 
 nav, footer {
-    font-family: "Monsterat", serif;
+    font-family: "Roboto Mono", serif;
     font-size: small;
 }
 
@@ -84,7 +84,7 @@ h3 {
 }
 
 .uga {
-    height: 125px;
+    height: 120px;
     position: absolute;
     top: 85px;
     right: 100px;
@@ -137,17 +137,9 @@ ul {
     align-items: start;
 }
 
-dl {
-    display: inline;
-}
-
 dt {
-    display: inline;
-}
-
-dd {
-    flex-basis: 50%;
-    flex-grow: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .one-col {
